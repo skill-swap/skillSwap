@@ -20,8 +20,9 @@ export class AppComponent implements OnInit {
     console.log(a);
     console.log(a);
 
-    [1,2,3].forEach((el) => {
-      console.log(el, 'el');
+    const a = [1,2,3].filter((el) => {
+      return el;
+      console.log(el)
     })
   }
 }
