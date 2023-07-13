@@ -7,22 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'skill-swap';
-  private kaka = 1;
 
   public ngOnInit() {
-    const a = 1;
-    const b = 2;
-    let ac = 1;
-    console.log(a);
-    console.log(a);
-    console.log(a);
-    console.log(a);
-    console.log(a);
-    console.log(a);
-
-    const a = [1,2,3].filter((el) => {
-      return el;
-      console.log(el)
-    })
   }
 }
