@@ -15,4 +15,7 @@ jobs:
 
       - name: Push to another repository
         run: |
-          git push 'https://github.com/ITEasyCourses/skillSwapFE.git' HEAD:main
+          git config --local user.name 'ITEasyCourses'
+          git config --local user.email 'it.easy.course@gmail.com'
+          git remote add other-repo 'https://github.com/ITEasyCourses/skillSwapFE.git'
+          git push other-repo HEAD:main
