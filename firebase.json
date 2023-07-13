@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/skill-swap",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
